@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>hifiveWebProject</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <session-config/>
+  <filter>
+    <filter-name>PwdFilter</filter-name>
+    <filter-class>user.filter.PwdFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>PwdFilter</filter-name>
+    <url-pattern>/enroll</url-pattern>
+    <url-pattern>/login</url-pattern>
+    <url-pattern>/changepwd</url-pattern>
+    <url-pattern>/searchpwdfinal</url-pattern>
+  </filter-mapping>
+ <!--  <servlet>
+    <servlet-name>main-jsp</servlet-name>
+    <jsp-file>/main.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>main-jsp</servlet-name>
+    <url-pattern>/kukaro</url-pattern>
+  </servlet-mapping> -->
+  <!-- <servlet>
+    <servlet-name>login-Servlet</servlet-name>
+    <servlet-class>Hello</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>login-Servlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+  </servlet-mapping> -->
+</web-app>
