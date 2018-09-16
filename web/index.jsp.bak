@@ -222,7 +222,6 @@ header {
 					
 					<br>
 					<div id="hspInfo">
-					
 					<center>
 					<div class="card-deck" style="width: 1400px; height: 450px;">
 				
@@ -282,8 +281,8 @@ header {
 				<br>
 				<img src="./resources/image/index/friendship4.png" width="100px">		
 				<br><br>
-					<div style="text-align: left; color: #000000;">
-					<p style="font-size: 16pt;"><b>친구 찾기</b></p>
+					<div style="text-align: left;">
+					<p style="color: rgba(255, 68, 0, .7); font-size: 16pt;"><b>친구 찾기</b></p>
 					<p style="font-size: 12pt;">
 					완벽한 프로필을 작성했다면, 가고 싶은 지역에 호스트,파트너,서퍼를 검색해보십오.<br>
 					대화를 나누고싶은 상대의 프로필을 세세하게 확인해보십시오.<br>
@@ -291,8 +290,8 @@ header {
 					동료를 찾았다면, 사이트에서 제공하는 대화기능으로 대화를 나누어 보십시오. <br></p>
 					</div>
 					<br>
-					<div style="text-align: right; color: #000000;">
-					<p style="font-size: 16pt;"><b>친구가 되어주기</b></p>
+					<div style="text-align: right;">
+					<p style="color: rgba(255, 68, 0, .7); font-size: 16pt;"><b>친구가 되어주기</b></p>
 					<p style="font-size: 12pt;">
 					당신은 다른사람에게 호스팅, 파트너를 요청할 수도 있지만, <br>
 					당신이 호스터 또는 파트너로서 서퍼를 초대할 수도 있습니다.<br>
@@ -303,7 +302,32 @@ header {
 				</div>
 				</center>
 				
+				<div id="safetyinfo">
 				
+				<center>
+				
+				<div id="safetydiv1" class="alert alert-light">		
+				<br>
+				<img src="./resources/image/index/searchicon.png" width="100px">
+				<br><br>
+				<h5>호스트, 서퍼, 파트너를 찾으세요!</h5>
+				</div>
+				
+				<div id="safetydiv2" class="alert alert-light">	
+				<br>
+				<img src="./resources/image/index/friendship.png" width="100px">
+				<br><br>
+				<h5>그 지역의 문화를 함께 즐기세요!</h5>
+				</div>
+				
+				<div id="safetydiv3" class="alert alert-light">	
+				<br>	
+				<img src="./resources/image/index/tripicon.png" width="150px" height="100px">
+				<br><br>
+				<h5>그들과 함께 여행하세요!</h5>	
+				</div>
+				</center>
+				</div>
 				
 	<div class="container">		
 		
